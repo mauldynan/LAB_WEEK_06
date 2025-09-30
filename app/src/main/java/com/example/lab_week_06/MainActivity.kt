@@ -42,14 +42,14 @@ class MainActivity : AppCompatActivity() {
             CatModel(
                 Gender.Male,
                 CatBreed.BalineseJavanese,
-                "Fred",
+                "Karrell",
                 "Silent and deadly",
                 "https://cdn2.thecatapi.com/images/7dj.jpg"
             ),
             CatModel(
                 Gender.Female,
                 CatBreed.ExoticShorthair,
-                "Wilma",
+                "Sophie",
                 "Cuddly assassin",
                 "https://cdn2.thecatapi.com/images/egv.jpg"
             ),
@@ -59,6 +59,55 @@ class MainActivity : AppCompatActivity() {
                 "Curious George",
                 "Award winning investigator",
                 "https://cdn2.thecatapi.com/images/bar.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.ExoticShorthair,
+                "Fedora",
+                "A sleepy purr machine",
+                "https://cdn2.thecatapi.com/images/154.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.AmericanCurl,
+                "Leo",
+                "Loves to play fetch",
+                "https://cdn2.thecatapi.com/images/564.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.BalineseJavanese,
+                "Maul",
+                "Graceful and elegant",
+                "https://cdn2.thecatapi.com/images/876.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.ExoticShorthair,
+                "Fahmy",
+                "Enjoys sunbathing all day",
+                "https://cdn2.thecatapi.com/images/992.jpg"
+            ),
+            CatModel(
+                Gender.Unknown,
+                CatBreed.AmericanCurl,
+                "Waltz",
+                "A gentle giant",
+                "https://cdn2.thecatapi.com/images/323.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.BalineseJavanese,
+                "Leo",
+                "A fearless hunter",
+                "https://cdn2.thecatapi.com/images/223.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.ExoticShorthair,
+                "Chloe",
+                "Very talkative and friendly",
+                "https://cdn2.thecatapi.com/images/789.jpg"
             )
         )
         catAdapter.setData(sampleCats)
